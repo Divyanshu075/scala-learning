@@ -9,7 +9,8 @@ class StudentClass1(val name: String, val rollNumber: Int) {
     objCast.name == name && objCast.rollNumber == rollNumber
   }
 
-  def add(a: Int): Int = rollNumber + a
+  def addRollNumber(a: StudentClass1): Int = rollNumber + a.rollNumber
+  def addRollNumber1(a: StudentClass1, b: StudentClass1): Int = rollNumber + a.rollNumber
 
 //  ==, eq final can't be overrided
 }

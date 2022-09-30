@@ -18,16 +18,6 @@ object ScalaMain1 extends App {
   println(a.equals(b))
   println(a.equals(c))
 
-  println(a equals b)
-
-  println(a eq b)
-
-  println(a add 1)
-
-  println(a add(1))
-
-  println(a.add(1))
-
   println(">>>>>>>>>>>>>>>>>>")
 
   println(a.eq(a))
@@ -43,5 +33,24 @@ object ScalaMain1 extends App {
 
   println(null == a)
   println(null.==(a))
-  println(null.equals(a))
+  try {
+    println(null.equals(a))
+  } catch {
+    case ex: Exception => println(ex.getMessage)
+  }
+
+  println(">>>>>>>>>>>>")
+
+  println(a equals b)
+
+  println(a eq b)
+
+  println(a addRollNumber b)
+
+  println(a addRollNumber (c))
+
+  //  println(a addRollNumber1 b, c) compile error
+
+  println(a addRollNumber1(b, c))
+  println(a addRollNumber1(b, c)) // with space
 }
