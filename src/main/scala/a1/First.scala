@@ -1,3 +1,5 @@
+package a1
+
 object First {
 
   def main(args: Array[String]): Unit = {
@@ -24,17 +26,17 @@ object First {
 
     fq = 455555
 
-    fq=3444
+    fq = 3444
 
-//    fq = "saasas"
+    //    fq = "saasas"
 
-//    var fq = 3434
+    //    var fq = 3434
 
     var fff: Int = 333
 
-//
-//    a = 45
-//    val a = 2323
+    //
+    //    a = 45
+    //    val a = 2323
 
     val x1 = 12
     val x2 = 23

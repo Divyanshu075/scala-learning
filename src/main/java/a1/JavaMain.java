@@ -1,3 +1,6 @@
+package a1;
+
+import a1.StudentScala;
 import scala.Tuple2;
 
 public class JavaMain {

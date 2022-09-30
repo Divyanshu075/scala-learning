@@ -1,3 +1,5 @@
+package a1
+
 object ControlExamples extends App {
 
   val cond: Boolean = true
@@ -51,7 +53,7 @@ object ControlExamples extends App {
 
   var i = 0
 
-  while(i < 6) {
+  while (i < 6) {
     println(i)
     i += 1
   }
@@ -61,7 +63,7 @@ object ControlExamples extends App {
     i -= 1
   } while (i > 4)
 
-  for(x <- 1 to 6) {
+  for (x <- 1 to 6) {
     println(x)
   }
 
@@ -73,13 +75,13 @@ object ControlExamples extends App {
 
   println(">>>>")
 
-  for(x <- 1 to 6 by 2) {
+  for (x <- 1 to 6 by 2) {
     println(x)
   }
 
   println(">>>>>>>>>>")
 
-  for(x <- 6 to 1 by -1) {
+  for (x <- 6 to 1 by -1) {
     println(x)
   }
 
@@ -87,9 +89,9 @@ object ControlExamples extends App {
 
   def incre(x: Int) = x * 2
 
-  val a = 1
+  val a11 = 1
 
-  for(x <- 1 to 100 by incre(a)) {
+  for (x <- 1 to 100 by incre(a)) {
     println(x)
   }
 }

@@ -1,3 +1,5 @@
+package a1
+
 object StringCont extends App {
 
   val a = "Arpit"
@@ -29,7 +31,7 @@ object StringCont extends App {
 
   println(s"${toUpper("sas")}")
 
-//  println(s"$zero(2323)")
+  //  println(s"$zero(2323)")
 
   println(s"$one")
 
@@ -38,7 +40,7 @@ object StringCont extends App {
   // raw strings
   val a2 =
     s"""kjsadfjsdf
-      |${"\n"}dsafkhsalkjdfkjdsaf dsaflkdsajfdsajf "dfsdfdsf" dfs "F"dfdsfdsf "dsfdsfsdfsdf"""".stripMargin
+       |${"\n"}dsafkhsalkjdfkjdsaf dsaflkdsajfdsajf "dfsdfdsf" dfs "F"dfdsfdsf "dsfdsfsdfsdf"""".stripMargin
 
 
   println(a2)
@@ -49,10 +51,10 @@ object StringCont extends App {
 
   val a4 =
     s"""
-      |{
-      |           "name": "$a"
-      |           "sasas": "asassa"
-      |}""".stripMargin
+       |{
+       |           "name": "$a"
+       |           "sasas": "asassa"
+       |}""".stripMargin
 
   println(a4)
 }

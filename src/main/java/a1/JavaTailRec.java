@@ -1,3 +1,5 @@
+package a1;
+
 public class JavaTailRec {
 
     static int rec1(int n) throws Exception {

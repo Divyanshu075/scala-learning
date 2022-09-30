@@ -1,3 +1,5 @@
+package a1
+
 class StudentScala(val name: String, val rollNumber: Int) {
 
   val a = 333

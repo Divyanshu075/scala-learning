@@ -1,8 +1,11 @@
+package a1
+
 import scala.util.Random
 
 object FunctionsExample2 extends App {
 
   def one: Int = 1
+
   val two = 2
 
   def onee(): Unit = println("Sas")
@@ -35,5 +38,5 @@ object FunctionsExample2 extends App {
   println(onee())
   println(onee)
 
-//  println(one())
+  //  println(one())
 }

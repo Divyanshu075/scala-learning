@@ -1,3 +1,5 @@
+package a1
+
 object DefaultArguments extends App {
 
   def increment(a: Int, x: Int): Int = a + x
@@ -19,5 +21,5 @@ object DefaultArguments extends App {
   def increment1(a: Int = 1, x: Int = 2) = a + x
 
   println(increment1())
-//  println(increment1)
+  //  println(increment1)
 }

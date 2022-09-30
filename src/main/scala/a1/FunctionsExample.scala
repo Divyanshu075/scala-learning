@@ -1,3 +1,5 @@
+package a1
+
 object FunctionsExample extends App {
 
   // def add(a, b): Int = ???
@@ -23,10 +25,10 @@ object FunctionsExample extends App {
   println(add(1, 2))
   println(sub(1, 2))
 
- val x1: StudentScala = new StudentScala("Sas" , 3232)
- val x2 = new StudentScala("Sas", 32323)
+  val x1: StudentScala = new StudentScala("Sas", 3232)
+  val x2 = new StudentScala("Sas", 32323)
 
- val x3: StudentScala = x1.+(x1)
+  val x3: StudentScala = x1.+(x1)
 
   val x4 = x1 + x2
 }

@@ -1,3 +1,5 @@
+package a1
+
 import scala.annotation.tailrec
 
 class TailExample {

@@ -1,3 +1,5 @@
+package a1
+
 object NamedArguments extends App {
 
   def increment(a: Int, x: Int) = {
@@ -20,8 +22,8 @@ object NamedArguments extends App {
   println(add(1, 2, 3, 4))
   println(add(a = 3, c = 33, d = 45))
 
-//  println(add(b = 3, 1, 2, 2))
-    println(add(a = 3, 1, 2, 2))
+  //  println(add(b = 3, 1, 2, 2))
+  println(add(a = 3, 1, 2, 2))
 
   println(add(1, 2, 3, d = 45))
 }

@@ -1,12 +1,15 @@
+package a1
+
 object TuplesExamples1 extends App {
 
   class MyTuple1[A, B](val _1: A, val _2: B) {
 
     override def toString: String = s"(${_1}, ${_2})"
   }
-//  Tuple1
-//  Tuple2
-//  Tuple22
+
+  //  Tuple1
+  //  Tuple2
+  //  Tuple22
   val a: MyTuple1[Int, String] = new MyTuple1[Int, String](1, "222")
 
   println(a)

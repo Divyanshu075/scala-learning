@@ -1,3 +1,5 @@
+package a1
+
 object TyplesExample extends App {
 
   //22
