@@ -52,5 +52,5 @@ object ScalaMain1 extends App {
   //  println(a addRollNumber1 b, c) compile error
 
   println(a addRollNumber1(b, c))
-  println(a addRollNumber1(b, c)) // with space
+  println(a addRollNumber1 (b, c)) // with space
 }
